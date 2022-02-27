@@ -1,1 +1,6 @@
 flask
+tabulate
+numpy
+pandas
+stocknotebridge
+websocket-client
