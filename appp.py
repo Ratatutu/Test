@@ -10,6 +10,6 @@ def index():
 
 hostIP="0.0.0.0"
 hostPort=os.environ.get("PORT",5000)
-if(__name__=="main"):
+if(__name__=="__main__"):
   print("Starting up in main...")
   app.run(host=hostIP,port=hostPort)
